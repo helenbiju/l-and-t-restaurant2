@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>X KITCHEN</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome (icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    body {
+      background-image: url('https://i.pinimg.com/originals/ed/56/66/ed56668b23162cd18af0aef0d61cfcdc.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    header {
+      background-color: #b23a48;
+      color: rgb(188, 244, 2);
+      padding: 15px 0;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    header h1 {
+      font-family: 'Georgia', serif;
+      font-size: 26px;
+      letter-spacing: 2px;
+      margin: 0;
+    }
+
+    section {
+      padding: 50px 20px;
+      background-color: rgba(255, 255, 255, 0.9);
+      margin: 20px auto;
+      border-radius: 10px;
+      width: 90%;
+      max-width: 1100px;
+      text-align: center;
+    }
+
+    section img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+
+    section img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #b23a48;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    /* Back to top button */
+    #backToTop {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      display: none;
+      background-color: #b23a48;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 50%;
+      font-size: 18px;
+      cursor: pointer;
+      z-index: 999;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>X KITCHEN</h1>
+  <!-- Bootstrap Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark justify-content-center">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="#starters">Starters</a></li>
+      <li class="nav-item"><a class="nav-link" href="#mains">Mains</a></li>
+      <li class="nav-item"><a class="nav-link" href="#desserts">Desserts</a></li>
+      <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+      <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section id="hero">
+  <h2>Welcome to X KITCHEN</h2>
+  <p>Delicious food, warm ambiance, and great service.</p>
+</section>
+
+<!-- Starters -->
+<section id="starters">
+  <h2>Starters</h2>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <img src="d32c69297f640f41a97c8930b63e0e9f.jpg" alt="Soup">
+      <p>SOUP - ₹80</p>
+    </div>
+    <div class="col-md-4">
+      <img src="8520506e38ed9da4627336e1b9837c5f.jpg" alt="Chicken Lollipop">
+      <p>CHICKEN LOLLIPOP - ₹100</p>
+    </div>
+    <div class="col-md-4">
+      <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e" alt="Salad">
+      <p>SALAD - ₹70</p>
+    </div>
+  </div>
+</section>
+
+<!-- Mains -->
+<section id="mains">
+  <h2>Mains</h2>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <img src="9215615b380536f5903fb6c55c2bb0a4.jpg" alt="Biryani">
+      <p>BIRYANI - ₹150</p>
+    </div>
+    <div class="col-md-4">
+      <img src="f7415f93ecdccc842224b4790f541112.jpg" alt="Pasta">
+      <p>MEALS - ₹70</p>
+    </div>
+    <div class="col-md-4">
+      <img src="d0660cd67df7bb2561aae7e5d14f5c3e.jpg" alt="Pizza">
+      <p>FRIED RICE - ₹150</p>
+    </div>
+  </div>
+</section>
+
+<!-- Desserts -->
+<section id="desserts">
+  <h2>Desserts</h2>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <img src="257f81e281af19a021f6719f1040cbe3.jpg" alt="Ice Cream">
+      <p>ICE CREAM - ₹60</p>
+    </div>
+    <div class="col-md-4">
+      <img src="3394d1ebc51f95f1dfa6ab5da13e3784.jpg" alt="Cake">
+      <p>GULAB JAMUN- ₹90</p>
+    </div>
+   
+  </div>
+</section>
+
+<!-- About -->
+<section id="about">
+  <h2>About Us</h2>
+  <p>At X KITCHEN, we bring you the finest flavors crafted with love. Our chefs use fresh ingredients to prepare dishes that delight your senses.</p>
+  <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" width="300px" class="rounded">
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p><i class="fa fa-map-marker-alt"></i> near Christ University Kengeri campus, Kanminike</p>
+  <p><i class="fa fa-phone"></i> +1 234 567 890</p>
+  <p><i class="fa fa-clock"></i> Mon-Sun: 10:00 AM - 10:00 PM</p>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 X KITCHEN Restaurant. All rights reserved.</p>
+</footer>
+
+<!-- Back to Top -->
+<button id="backToTop"><i class="fa fa-arrow-up"></i></button>
+
+<!-- jQuery + Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  // Smooth scrolling for nav links
+  $("nav ul li a").on("click", function(e) {
+    if (this.hash !== "") {
+      e.preventDefault();
+      const hash = this.hash;
+      $("html, body").animate({
+        scrollTop: $(hash).offset().top - 20
+      }, 800);
+    }
+  });
+
+  // Back to top button
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 200) {
+      $("#backToTop").fadeIn();
+    } else {
+      $("#backToTop").fadeOut();
+    }
+  });
+
+  $("#backToTop").click(function() {
+    $("html, body").animate({ scrollTop: 0 }, 800);
+  });
+</script>
+
+</body>
+</html>
